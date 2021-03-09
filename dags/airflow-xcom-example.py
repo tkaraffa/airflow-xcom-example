@@ -66,25 +66,35 @@ def load_from_db(**kwargs):
 def double_values(**kwargs):
     ti = kwargs['ti']
     results = ti.xcom_pull(key='results', task_ids='load_from_db')
-    for i, value in enumerate(results):
-        print(i, value)
+    doubled_results = []
+    for value in results:
+        print('value', value)
+        doubled_row = []
+        for number in value[1:]:
+            print('number', number)
+            doubled_row.append(number * 2)
+            print('doubled row', doubled_row)
+        doubled_results.append(tuple(value[:1]) + tuple(doubled_row))
 
-
-
-
-
+        print(doubled_results)
+    ti.xcom_push(key='doubled_results', value=doubled_results)
 
 # use the IP address to connect to the database and insert data
 def insert_into_db(**kwargs):
     ti = kwargs['ti']
     ip_address = ti.xcom_pull(key='ip_address', task_ids='get_ip')
+    doubled_results = ti.xcom_pull(key='doubled_results', task_ids='double_values')
     conn_statement = f"postgresql://airflow:airflow@{ip_address}:5432/airflow"
     engine = create_engine(conn_statement)
     conn = engine.connect()
-    db_statement = """
-    INSERT INTO public.airflow_example(column1, column2) VALUES (3333, 333333);
-    """
-    conn.execute(db_statement)
+    for row in doubled_results:
+
+        db_statement = f"""
+        INSERT INTO public.airflow_example_doubled(
+            doubled_id, column1_doubled, column2_doubled)
+        VALUES {row};
+        """
+        conn.execute(db_statement)
 
 default_args = {
     'owner': 'airflow',
@@ -142,6 +152,6 @@ with DAG(
     Use the previously obtained IP address to insert data into database.
     """
 
-    get_ip_task.set_downstream(insert_into_db_task)
     get_ip_task.set_downstream(load_from_db_task)
     load_from_db_task.set_downstream(double_values_task)
+    double_values_task.set_downstream(insert_into_db_task)
