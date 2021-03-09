@@ -18,11 +18,10 @@
 # under the License.
 
 """
-# XCOM Example
+## XCOM Example
 Example demonstrating how to pass values from one Airflow task to another.
 
-[readme](https://github.com/tkaraffa/airflow-xcom-example/blob/main/README.md)
-[repo](https://github.com/tkaraffa/airflow-xcom-example)
+###[readme](https://github.com/tkaraffa/airflow-xcom-example/blob/main/README.md) | ###[repo](https://github.com/tkaraffa/airflow-xcom-example)
 """
 from datetime import timedelta
 from sqlalchemy import *
@@ -71,21 +70,20 @@ default_args = {
 }
 
 with DAG(
-    'tutorial',
+    'xcom-example',
     default_args=default_args,
-    description='getting better',
     schedule_interval=timedelta(days=1)
     ) as dag:
 
     dag.doc_md = __doc__
 
-    t1 = PythonOperator(
+    get_ip_task = PythonOperator(
         task_id='get_ip',
         python_callable=get_ip,
         provide_context=True,
     )
 
-    t1.doc_md = """\
+    get_ip_task.doc_md = """
     ## get_ip
     Obtain the IP address of the databases container.
      Obtains IP address of current container, and decrements last digit by 1
@@ -93,15 +91,15 @@ with DAG(
     To do: convert to BashOperator, and use command line interface to obtain correct IP address.
     """
 
-    t2 = PythonOperator(
+    connect_to_db_task = PythonOperator(
         task_id='connect_to_db',
         python_callable=connect_to_db,
         provide_context=True,
     )
 
-    t2.doc_md = """\
+    connect_to_db_task.doc_md = """
     ## connect_to_db
     Use the previously obtained IP address to insert data into database.
     """
 
-    t1.set_downstream(t2)
+    get_ip_task.set_downstream(connect_to_db_task)
