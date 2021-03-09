@@ -35,21 +35,11 @@ from airflow.models import Variable
 from airflow.models import TaskInstance
 from airflow.utils.dates import days_ago
 
-# absurd function to get the database container's IP address
-def get_ip(**kwargs):
-    ti = kwargs['ti']
-    name = socket.gethostname()
-    ip = socket.gethostbyname(name)
-    ip = [int(i) for i in ip.split('.')]
-    ip[-1] = ip[-1] - 1 # decrement ip address to get to database container's
-    ip = '.'.join([str(i) for i in ip])
-    ti.xcom_push(key='ip_address', value=ip)
 
 # use passed IP address to query database
 def load_from_db(**kwargs):
     ti = kwargs['ti']
-    ip_address = ti.xcom_pull(key='ip_address', task_ids='get_ip')
-    conn_statement = f"postgresql://airflow:airflow@{ip_address}:5432/airflow"
+    conn_statement = f"postgresql://airflow:airflow@postgres:5432/airflow"
     engine = create_engine(conn_statement)
     conn = engine.connect()
     db_statement = """
@@ -73,9 +63,8 @@ def double_values(**kwargs):
 # use the IP address to connect to the database and insert new data
 def insert_into_db(**kwargs):
     ti = kwargs['ti']
-    ip_address = ti.xcom_pull(key='ip_address', task_ids='get_ip')
     doubled_results = ti.xcom_pull(key='doubled_results', task_ids='double_values')
-    conn_statement = f"postgresql://airflow:airflow@{ip_address}:5432/airflow"
+    conn_statement = f"postgresql://airflow:airflow@postgres:5432/airflow"
     engine = create_engine(conn_statement)
     conn = engine.connect()
     for row in doubled_results:
@@ -103,12 +92,6 @@ with DAG(
     schedule_interval=timedelta(days=1)
     ) as dag:
 
-    get_ip_task = PythonOperator(
-        task_id='get_ip',
-        python_callable=get_ip,
-        provide_context=True,
-    )
-
     load_from_db_task = PythonOperator(
         task_id='load_from_db',
         python_callable=load_from_db,
@@ -129,13 +112,6 @@ with DAG(
 
     dag.doc_md = __doc__
 
-    get_ip_task.doc_md = """
-    ## get_ip
-    Obtain the IP address of the databases container.
-     Obtains IP address of current container, and decrements last digit by 1
-    <br><br>
-    To do: convert to BashOperator, and use command line interface to obtain correct IP address.
-    """
 
     load_from_db_task.doc_md = """
     ## load_from_db
@@ -153,6 +129,5 @@ with DAG(
     Use the previously obtained IP address to insert data into database.
     """
 
-    get_ip_task.set_downstream(load_from_db_task)
     load_from_db_task.set_downstream(double_values_task)
     double_values_task.set_downstream(insert_into_db_task)
