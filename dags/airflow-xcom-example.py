@@ -18,10 +18,11 @@
 # under the License.
 
 """
-### Tutorial Documentation
-Documentation that goes along with the Airflow tutorial located
-[here](https://airflow.incubator.apache.org/tutorial.html)
-[Tom](https://github.com/tkaraffa)
+# XCOM Example
+Example demonstrating how to pass values from one Airflow task to another.
+
+[readme](https://github.com/tkaraffa/airflow-xcom-example/blob/main/README.md)
+[repo](https://github.com/tkaraffa/airflow-xcom-example)
 """
 from datetime import timedelta
 from sqlalchemy import *
@@ -36,7 +37,7 @@ from airflow.models import TaskInstance
 from airflow.utils.dates import days_ago
 
 # absurd function to get the database container's IP address
-def _get_ip(**kwargs):
+def get_ip(**kwargs):
     ti = kwargs['ti']
     name = socket.gethostname()
     ip = socket.gethostbyname(name)
@@ -47,21 +48,26 @@ def _get_ip(**kwargs):
 
 
 # use the IP address to connect to the database and insert data
-def _connect_to_db(**kwargs):
+def connect_to_db(**kwargs):
     ti = kwargs['ti']
-    ip_address = ti.xcom_pull(key='ip_address', task_ids='getIP')
+    ip_address = ti.xcom_pull(key='ip_address', task_ids='get_ip')
     conn_statement = f"postgresql://airflow:airflow@{ip_address}:5432/airflow"
     engine = create_engine(conn_statement)
     conn = engine.connect()
     db_statement = """
-    INSERT INTO public.example2(column1, column2) VALUES (3333, 333333);
+    INSERT INTO public.airflow_example(column1, column2) VALUES (3333, 333333);
     """
     conn.execute(db_statement)
 
 default_args = {
     'owner': 'airflow',
+    'depends_on_past': False,
     'email': ['airflow@example.com'],
-    'start_date': days_ago(0)
+    'email_on_failure': False,
+    'email_on_retry': False,
+    'retries': 1,
+    'retry_delay': timedelta(minutes=5),
+    'start_date': days_ago(1),
 }
 
 with DAG(
@@ -71,26 +77,31 @@ with DAG(
     schedule_interval=timedelta(days=1)
     ) as dag:
 
+    dag.doc_md = __doc__
+
     t1 = PythonOperator(
-        task_id='getIP',
-        python_callable=_get_ip,
+        task_id='get_ip',
+        python_callable=get_ip,
         provide_context=True,
     )
 
     t1.doc_md = """\
-    #### Task Documentation
-    You can document your task using the attributes `doc_md` (markdown),
-    `doc` (plain text), `doc_rst`, `doc_json`, `doc_yaml` which gets
-    rendered in the UI's Task Instance Details page.
-    ![img](http://montcs.bloomu.edu/~bobmon/Semesters/2012-01/491/import%20soul.png)
+    ## get_ip
+    Obtain the IP address of the databases container.
+     Obtains IP address of current container, and decrements last digit by 1
+    <br><br>
+    To do: convert to BashOperator, and use command line interface to obtain correct IP address.
     """
 
-    dag.doc_md = __doc__
-
     t2 = PythonOperator(
-        task_id='connectToDB',
-        python_callable=_connect_to_db,
+        task_id='connect_to_db',
+        python_callable=connect_to_db,
         provide_context=True,
     )
+
+    t2.doc_md = """\
+    ## connect_to_db
+    Use the previously obtained IP address to insert data into database.
+    """
 
     t1.set_downstream(t2)
