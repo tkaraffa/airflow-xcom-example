@@ -45,6 +45,7 @@ def get_ip(**kwargs):
     ip = '.'.join([str(i) for i in ip])
     ti.xcom_push(key='ip_address', value=ip)
 
+# use passed IP address to query database
 def load_from_db(**kwargs):
     ti = kwargs['ti']
     ip_address = ti.xcom_pull(key='ip_address', task_ids='get_ip')
@@ -57,29 +58,19 @@ def load_from_db(**kwargs):
     results = conn.execute(db_statement).fetchall()
     ti.xcom_push(key='results', value=results)
 
-
-
-# to do: make double_values work, clean up structure
-
-
-
+# get values from one table, double, and prepare for insertion into another table
 def double_values(**kwargs):
     ti = kwargs['ti']
     results = ti.xcom_pull(key='results', task_ids='load_from_db')
     doubled_results = []
     for value in results:
-        print('value', value)
         doubled_row = []
         for number in value[1:]:
-            print('number', number)
             doubled_row.append(number * 2)
-            print('doubled row', doubled_row)
         doubled_results.append(tuple(value[:1]) + tuple(doubled_row))
-
-        print(doubled_results)
     ti.xcom_push(key='doubled_results', value=doubled_results)
 
-# use the IP address to connect to the database and insert data
+# use the IP address to connect to the database and insert new data
 def insert_into_db(**kwargs):
     ti = kwargs['ti']
     ip_address = ti.xcom_pull(key='ip_address', task_ids='get_ip')
@@ -88,7 +79,6 @@ def insert_into_db(**kwargs):
     engine = create_engine(conn_statement)
     conn = engine.connect()
     for row in doubled_results:
-
         db_statement = f"""
         INSERT INTO public.airflow_example_doubled(
             doubled_id, column1_doubled, column2_doubled)
@@ -113,21 +103,11 @@ with DAG(
     schedule_interval=timedelta(days=1)
     ) as dag:
 
-    dag.doc_md = __doc__
-
     get_ip_task = PythonOperator(
         task_id='get_ip',
         python_callable=get_ip,
         provide_context=True,
     )
-
-    get_ip_task.doc_md = """
-    ## get_ip
-    Obtain the IP address of the databases container.
-     Obtains IP address of current container, and decrements last digit by 1
-    <br><br>
-    To do: convert to BashOperator, and use command line interface to obtain correct IP address.
-    """
 
     load_from_db_task = PythonOperator(
         task_id='load_from_db',
@@ -146,6 +126,27 @@ with DAG(
         python_callable=insert_into_db,
         provide_context=True,
     )
+
+    dag.doc_md = __doc__
+
+    get_ip_task.doc_md = """
+    ## get_ip
+    Obtain the IP address of the databases container.
+     Obtains IP address of current container, and decrements last digit by 1
+    <br><br>
+    To do: convert to BashOperator, and use command line interface to obtain correct IP address.
+    """
+
+    load_from_db_task.doc_md = """
+    ## load_from_db
+    Run query to select all data from example table
+    """
+
+    double_values_task.doc_md = """
+    ## double_values
+    Iterate through rows of pulled data, doubling each value,
+    and returning as tuple for use in future insert statements
+    """
 
     insert_into_db_task.doc_md = """
     ## connect_to_db
