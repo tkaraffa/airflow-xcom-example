@@ -37,7 +37,7 @@ from airflow.utils.dates import days_ago
 
 
 # use passed IP address to query database
-def load_from_db(**kwargs):
+def extract_from_db(**kwargs):
     ti = kwargs['ti']
     conn_statement = f"postgresql://airflow:airflow@postgres:5432/airflow"
     engine = create_engine(conn_statement)
@@ -51,7 +51,7 @@ def load_from_db(**kwargs):
 # get values from one table, double, and prepare for insertion into another table
 def double_values(**kwargs):
     ti = kwargs['ti']
-    results = ti.xcom_pull(key='results', task_ids='load_from_db')
+    results = ti.xcom_pull(key='results', task_ids='extract_from_db')
     doubled_results = []
     for value in results:
         doubled_row = []
@@ -61,7 +61,7 @@ def double_values(**kwargs):
     ti.xcom_push(key='doubled_results', value=doubled_results)
 
 # use the IP address to connect to the database and insert new data
-def insert_into_db(**kwargs):
+def load_into_db(**kwargs):
     ti = kwargs['ti']
     doubled_results = ti.xcom_pull(key='doubled_results', task_ids='double_values')
     conn_statement = f"postgresql://airflow:airflow@postgres:5432/airflow"
@@ -92,9 +92,9 @@ with DAG(
     schedule_interval=timedelta(days=1)
     ) as dag:
 
-    load_from_db_task = PythonOperator(
-        task_id='load_from_db',
-        python_callable=load_from_db,
+    extract_from_db_task = PythonOperator(
+        task_id='extract_from_db',
+        python_callable=extract_from_db,
         provide_context=True,
     )
 
@@ -104,17 +104,17 @@ with DAG(
         provide_context=True,
     )
 
-    insert_into_db_task = PythonOperator(
-        task_id='insert_into_db',
-        python_callable=insert_into_db,
+    load_into_db_task = PythonOperator(
+        task_id='load_into_db',
+        python_callable=load_into_db,
         provide_context=True,
     )
 
     dag.doc_md = __doc__
 
 
-    load_from_db_task.doc_md = """
-    ## load_from_db
+    extract_from_db_task.doc_md = """
+    ## extract_from_db
     Run query to select all data from example table
     """
 
@@ -124,10 +124,10 @@ with DAG(
     and returning as tuple for use in future insert statements
     """
 
-    insert_into_db_task.doc_md = """
-    ## connect_to_db
+    load_into_db_task.doc_md = """
+    ## load_into_db
     Use the previously obtained IP address to insert data into database.
     """
 
-    load_from_db_task.set_downstream(double_values_task)
-    double_values_task.set_downstream(insert_into_db_task)
+    extract_from_db_task.set_downstream(double_values_task)
+    double_values_task.set_downstream(load_into_db_task)
