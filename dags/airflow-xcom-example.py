@@ -43,7 +43,7 @@ def extract_from_db(**kwargs):
     engine = create_engine(conn_statement)
     conn = engine.connect()
     db_statement = """
-    SELECT * FROM public.airflow_example;
+    SELECT * FROM airflow_xcom_example.example_table;
     """
     results = conn.execute(db_statement).fetchall()
     ti.xcom_push(key='results', value=results)
@@ -69,16 +69,16 @@ def load_into_db(**kwargs):
     conn = engine.connect()
     for row in doubled_results:
         db_statement = f"""
-        INSERT INTO public.airflow_example_doubled(
+        INSERT INTO airflow_xcom_example.example_table_doubled(
             doubled_id, column1_doubled, column2_doubled)
         VALUES {row};
         """
         conn.execute(db_statement)
 
 default_args = {
-    'owner': 'airflow',
+    'owner': 'tom.karaffa',
     'depends_on_past': False,
-    'email': ['airflow@example.com'],
+    'email': ['tom.karaffa@deep-labs.com'],
     'email_on_failure': False,
     'email_on_retry': False,
     'retries': 1,
