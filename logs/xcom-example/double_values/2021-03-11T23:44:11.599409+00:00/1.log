@@ -1,0 +1,23 @@
+[2021-03-11 23:44:15,260] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: xcom-example.double_values 2021-03-11T23:44:11.599409+00:00 [queued]>
+[2021-03-11 23:44:15,292] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: xcom-example.double_values 2021-03-11T23:44:11.599409+00:00 [queued]>
+[2021-03-11 23:44:15,293] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-11 23:44:15,294] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2021-03-11 23:44:15,295] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-11 23:44:15,314] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): double_values> on 2021-03-11T23:44:11.599409+00:00
+[2021-03-11 23:44:15,331] {standard_task_runner.py:52} INFO - Started process 78 to run task
+[2021-03-11 23:44:15,343] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'xcom-example', 'double_values', '2021-03-11T23:44:11.599409+00:00', '--job-id', '19', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/airflow-xcom-example.py', '--cfg-path', '/tmp/tmpzdw_3qvx', '--error-file', '/tmp/tmpj62fsz2a']
+[2021-03-11 23:44:15,349] {standard_task_runner.py:77} INFO - Job 19: Subtask double_values
+[2021-03-11 23:44:15,453] {logging_mixin.py:104} INFO - Running <TaskInstance: xcom-example.double_values 2021-03-11T23:44:11.599409+00:00 [running]> on host 7d27dd48eb07
+[2021-03-11 23:44:15,559] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=tom.karaffa@deep-labs.com
+AIRFLOW_CTX_DAG_OWNER=tom.karaffa
+AIRFLOW_CTX_DAG_ID=xcom-example
+AIRFLOW_CTX_TASK_ID=double_values
+AIRFLOW_CTX_EXECUTION_DATE=2021-03-11T23:44:11.599409+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-03-11T23:44:11.599409+00:00
+[2021-03-11 23:44:15,642] {python.py:118} INFO - Done. Returned value was: None
+[2021-03-11 23:44:15,678] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=xcom-example, task_id=double_values, execution_date=20210311T234411, start_date=20210311T234415, end_date=20210311T234415
+[2021-03-11 23:44:15,867] {taskinstance.py:1220} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-03-11 23:44:15,898] {local_task_job.py:146} INFO - Task exited with return code 0

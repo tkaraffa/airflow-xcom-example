@@ -1,0 +1,23 @@
+[2021-03-12 00:13:01,365] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: xcom-example.extract_from_db 2021-03-12T00:13:00.807410+00:00 [queued]>
+[2021-03-12 00:13:01,385] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: xcom-example.extract_from_db 2021-03-12T00:13:00.807410+00:00 [queued]>
+[2021-03-12 00:13:01,386] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-12 00:13:01,389] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2021-03-12 00:13:01,390] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-12 00:13:01,402] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): extract_from_db> on 2021-03-12T00:13:00.807410+00:00
+[2021-03-12 00:13:01,408] {standard_task_runner.py:52} INFO - Started process 46 to run task
+[2021-03-12 00:13:01,412] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'xcom-example', 'extract_from_db', '2021-03-12T00:13:00.807410+00:00', '--job-id', '38', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/airflow-xcom-example.py', '--cfg-path', '/tmp/tmpti0yag1t', '--error-file', '/tmp/tmpuj34vvby']
+[2021-03-12 00:13:01,414] {standard_task_runner.py:77} INFO - Job 38: Subtask extract_from_db
+[2021-03-12 00:13:01,458] {logging_mixin.py:104} INFO - Running <TaskInstance: xcom-example.extract_from_db 2021-03-12T00:13:00.807410+00:00 [running]> on host 529cfb9a3d0d
+[2021-03-12 00:13:01,494] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=tom.karaffa@deep-labs.com
+AIRFLOW_CTX_DAG_OWNER=tom.karaffa
+AIRFLOW_CTX_DAG_ID=xcom-example
+AIRFLOW_CTX_TASK_ID=extract_from_db
+AIRFLOW_CTX_EXECUTION_DATE=2021-03-12T00:13:00.807410+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-03-12T00:13:00.807410+00:00
+[2021-03-12 00:13:01,518] {python.py:118} INFO - Done. Returned value was: None
+[2021-03-12 00:13:01,528] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=xcom-example, task_id=extract_from_db, execution_date=20210312T001300, start_date=20210312T001301, end_date=20210312T001301
+[2021-03-12 00:13:01,560] {taskinstance.py:1220} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-03-12 00:13:01,588] {local_task_job.py:146} INFO - Task exited with return code 0

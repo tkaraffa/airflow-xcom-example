@@ -1,0 +1,706 @@
+[2021-03-12 00:00:10,465] {scheduler_job.py:182} INFO - Started process (PID=1908) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:00:10,469] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:00:10,472] {logging_mixin.py:104} INFO - [2021-03-12 00:00:10,471] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:00:10,547] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:00:10,559] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:00:10,592] {logging_mixin.py:104} INFO - [2021-03-12 00:00:10,592] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:00:10,612] {logging_mixin.py:104} INFO - [2021-03-12 00:00:10,611] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:00:10,624] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.166 seconds
+[2021-03-12 00:00:41,258] {scheduler_job.py:182} INFO - Started process (PID=1935) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:00:41,259] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:00:41,261] {logging_mixin.py:104} INFO - [2021-03-12 00:00:41,260] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:00:41,317] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:00:41,325] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:00:41,353] {logging_mixin.py:104} INFO - [2021-03-12 00:00:41,353] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:00:41,368] {logging_mixin.py:104} INFO - [2021-03-12 00:00:41,368] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:00:41,376] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.123 seconds
+[2021-03-12 00:01:11,887] {scheduler_job.py:182} INFO - Started process (PID=1962) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:01:11,889] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:01:11,890] {logging_mixin.py:104} INFO - [2021-03-12 00:01:11,890] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:01:11,949] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:01:11,957] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:01:11,979] {logging_mixin.py:104} INFO - [2021-03-12 00:01:11,979] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:01:11,996] {logging_mixin.py:104} INFO - [2021-03-12 00:01:11,995] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:01:12,003] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.119 seconds
+[2021-03-12 00:01:42,468] {scheduler_job.py:182} INFO - Started process (PID=1989) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:01:42,470] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:01:42,472] {logging_mixin.py:104} INFO - [2021-03-12 00:01:42,472] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:01:42,565] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:01:42,575] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:01:42,619] {logging_mixin.py:104} INFO - [2021-03-12 00:01:42,619] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:01:42,641] {logging_mixin.py:104} INFO - [2021-03-12 00:01:42,641] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:01:42,648] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.185 seconds
+[2021-03-12 00:02:13,182] {scheduler_job.py:182} INFO - Started process (PID=2016) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:02:13,185] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:02:13,186] {logging_mixin.py:104} INFO - [2021-03-12 00:02:13,186] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:02:13,241] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:02:13,248] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:02:13,270] {logging_mixin.py:104} INFO - [2021-03-12 00:02:13,270] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:02:13,288] {logging_mixin.py:104} INFO - [2021-03-12 00:02:13,288] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:02:13,296] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.119 seconds
+[2021-03-12 00:02:43,822] {scheduler_job.py:182} INFO - Started process (PID=2043) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:02:43,824] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:02:43,826] {logging_mixin.py:104} INFO - [2021-03-12 00:02:43,826] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:02:43,898] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:02:43,917] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:02:43,953] {logging_mixin.py:104} INFO - [2021-03-12 00:02:43,953] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:02:43,977] {logging_mixin.py:104} INFO - [2021-03-12 00:02:43,977] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:02:43,988] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.171 seconds
+[2021-03-12 00:03:14,574] {scheduler_job.py:182} INFO - Started process (PID=2070) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:03:14,576] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:03:14,578] {logging_mixin.py:104} INFO - [2021-03-12 00:03:14,578] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:03:14,659] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:03:14,675] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:03:14,698] {logging_mixin.py:104} INFO - [2021-03-12 00:03:14,698] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:03:14,717] {logging_mixin.py:104} INFO - [2021-03-12 00:03:14,717] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:03:14,731] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.161 seconds
+[2021-03-12 00:03:45,173] {scheduler_job.py:182} INFO - Started process (PID=2097) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:03:45,176] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:03:45,178] {logging_mixin.py:104} INFO - [2021-03-12 00:03:45,178] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:03:45,290] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:03:45,302] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:03:45,343] {logging_mixin.py:104} INFO - [2021-03-12 00:03:45,343] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:03:45,387] {logging_mixin.py:104} INFO - [2021-03-12 00:03:45,386] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:03:45,401] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.233 seconds
+[2021-03-12 00:04:15,878] {scheduler_job.py:182} INFO - Started process (PID=2124) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:04:15,880] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:04:15,882] {logging_mixin.py:104} INFO - [2021-03-12 00:04:15,882] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:04:15,974] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:04:15,984] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:04:16,008] {logging_mixin.py:104} INFO - [2021-03-12 00:04:16,008] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:04:16,038] {logging_mixin.py:104} INFO - [2021-03-12 00:04:16,037] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:04:16,047] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.173 seconds
+[2021-03-12 00:04:46,682] {scheduler_job.py:182} INFO - Started process (PID=2151) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:04:46,685] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:04:46,686] {logging_mixin.py:104} INFO - [2021-03-12 00:04:46,686] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:04:46,779] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:04:46,786] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:04:46,810] {logging_mixin.py:104} INFO - [2021-03-12 00:04:46,809] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:04:46,832] {logging_mixin.py:104} INFO - [2021-03-12 00:04:46,832] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:04:46,840] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.161 seconds
+[2021-03-12 00:05:17,415] {scheduler_job.py:182} INFO - Started process (PID=2178) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:05:17,420] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:05:17,429] {logging_mixin.py:104} INFO - [2021-03-12 00:05:17,429] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:05:17,538] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:05:17,550] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:05:17,581] {logging_mixin.py:104} INFO - [2021-03-12 00:05:17,581] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:05:17,608] {logging_mixin.py:104} INFO - [2021-03-12 00:05:17,607] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:05:17,618] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.211 seconds
+[2021-03-12 00:05:48,146] {scheduler_job.py:182} INFO - Started process (PID=2205) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:05:48,148] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:05:48,150] {logging_mixin.py:104} INFO - [2021-03-12 00:05:48,150] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:05:48,223] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:05:48,232] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:05:48,257] {logging_mixin.py:104} INFO - [2021-03-12 00:05:48,257] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:05:48,277] {logging_mixin.py:104} INFO - [2021-03-12 00:05:48,277] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:05:48,287] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.145 seconds
+[2021-03-12 00:06:19,066] {scheduler_job.py:182} INFO - Started process (PID=2232) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:06:19,067] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:06:19,069] {logging_mixin.py:104} INFO - [2021-03-12 00:06:19,069] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:06:19,127] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:06:19,133] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:06:19,156] {logging_mixin.py:104} INFO - [2021-03-12 00:06:19,156] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:06:19,173] {logging_mixin.py:104} INFO - [2021-03-12 00:06:19,173] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:06:19,180] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.118 seconds
+[2021-03-12 00:06:49,902] {scheduler_job.py:182} INFO - Started process (PID=2259) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:06:49,904] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:06:49,905] {logging_mixin.py:104} INFO - [2021-03-12 00:06:49,905] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:06:49,968] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:06:49,974] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:06:50,001] {logging_mixin.py:104} INFO - [2021-03-12 00:06:50,001] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:06:50,016] {logging_mixin.py:104} INFO - [2021-03-12 00:06:50,016] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:06:50,026] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.129 seconds
+[2021-03-12 00:07:20,571] {scheduler_job.py:182} INFO - Started process (PID=2286) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:07:20,574] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:07:20,576] {logging_mixin.py:104} INFO - [2021-03-12 00:07:20,576] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:07:20,652] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:07:20,660] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:07:20,688] {logging_mixin.py:104} INFO - [2021-03-12 00:07:20,688] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:07:20,717] {logging_mixin.py:104} INFO - [2021-03-12 00:07:20,717] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:07:20,739] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.176 seconds
+[2021-03-12 00:07:51,500] {scheduler_job.py:182} INFO - Started process (PID=2313) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:07:51,501] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:07:51,503] {logging_mixin.py:104} INFO - [2021-03-12 00:07:51,503] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:07:51,574] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:07:51,589] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:07:51,615] {logging_mixin.py:104} INFO - [2021-03-12 00:07:51,615] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:07:51,632] {logging_mixin.py:104} INFO - [2021-03-12 00:07:51,632] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:07:51,640] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.147 seconds
+[2021-03-12 00:08:22,115] {scheduler_job.py:182} INFO - Started process (PID=2340) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:08:22,117] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:08:22,119] {logging_mixin.py:104} INFO - [2021-03-12 00:08:22,118] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:08:22,173] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:08:22,182] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:08:22,203] {logging_mixin.py:104} INFO - [2021-03-12 00:08:22,203] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:08:22,217] {logging_mixin.py:104} INFO - [2021-03-12 00:08:22,217] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:08:22,225] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.113 seconds
+[2021-03-12 00:08:52,722] {scheduler_job.py:182} INFO - Started process (PID=2367) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:08:52,724] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:08:52,726] {logging_mixin.py:104} INFO - [2021-03-12 00:08:52,726] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:08:52,787] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:08:52,794] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:08:52,819] {logging_mixin.py:104} INFO - [2021-03-12 00:08:52,819] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:08:52,838] {logging_mixin.py:104} INFO - [2021-03-12 00:08:52,838] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:08:52,853] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.136 seconds
+[2021-03-12 00:09:23,375] {scheduler_job.py:182} INFO - Started process (PID=2394) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:09:23,378] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:09:23,379] {logging_mixin.py:104} INFO - [2021-03-12 00:09:23,379] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:09:23,448] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:09:23,456] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:09:23,478] {logging_mixin.py:104} INFO - [2021-03-12 00:09:23,478] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:09:23,498] {logging_mixin.py:104} INFO - [2021-03-12 00:09:23,498] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:09:23,508] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.136 seconds
+[2021-03-12 00:09:54,249] {scheduler_job.py:182} INFO - Started process (PID=2421) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:09:54,251] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:09:54,252] {logging_mixin.py:104} INFO - [2021-03-12 00:09:54,252] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:09:54,306] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:09:54,312] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:09:54,340] {logging_mixin.py:104} INFO - [2021-03-12 00:09:54,340] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:09:54,357] {logging_mixin.py:104} INFO - [2021-03-12 00:09:54,357] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:09:54,365] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.119 seconds
+[2021-03-12 00:10:25,103] {scheduler_job.py:182} INFO - Started process (PID=2448) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:10:25,106] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:10:25,107] {logging_mixin.py:104} INFO - [2021-03-12 00:10:25,107] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:10:25,166] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:10:25,174] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:10:25,202] {logging_mixin.py:104} INFO - [2021-03-12 00:10:25,202] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:10:25,220] {logging_mixin.py:104} INFO - [2021-03-12 00:10:25,220] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:10:25,227] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.128 seconds
+[2021-03-12 00:10:55,666] {scheduler_job.py:182} INFO - Started process (PID=2475) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:10:55,668] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:10:55,669] {logging_mixin.py:104} INFO - [2021-03-12 00:10:55,669] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:10:55,734] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:10:55,742] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:10:55,772] {logging_mixin.py:104} INFO - [2021-03-12 00:10:55,772] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:10:55,788] {logging_mixin.py:104} INFO - [2021-03-12 00:10:55,788] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:10:55,798] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.137 seconds
+[2021-03-12 00:11:26,462] {scheduler_job.py:182} INFO - Started process (PID=2502) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:11:26,471] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:11:26,477] {logging_mixin.py:104} INFO - [2021-03-12 00:11:26,477] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:11:26,644] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:11:26,663] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:11:26,715] {logging_mixin.py:104} INFO - [2021-03-12 00:11:26,714] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:11:26,733] {logging_mixin.py:104} INFO - [2021-03-12 00:11:26,733] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:11:26,754] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.309 seconds
+[2021-03-12 00:11:51,491] {scheduler_job.py:182} INFO - Started process (PID=23) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:11:51,497] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:11:51,500] {logging_mixin.py:104} INFO - [2021-03-12 00:11:51,500] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:11:51,720] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:11:51,737] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:11:51,809] {logging_mixin.py:104} INFO - [2021-03-12 00:11:51,809] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:11:51,851] {logging_mixin.py:104} INFO - [2021-03-12 00:11:51,851] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:11:51,876] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.389 seconds
+[2021-03-12 00:12:21,956] {scheduler_job.py:182} INFO - Started process (PID=24) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:12:21,959] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:12:21,960] {logging_mixin.py:104} INFO - [2021-03-12 00:12:21,960] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:12:22,024] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:12:22,030] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:12:22,050] {logging_mixin.py:104} INFO - [2021-03-12 00:12:22,050] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:12:22,066] {logging_mixin.py:104} INFO - [2021-03-12 00:12:22,066] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:12:22,074] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.122 seconds
+[2021-03-12 00:12:52,145] {scheduler_job.py:182} INFO - Started process (PID=25) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:12:52,147] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:12:52,148] {logging_mixin.py:104} INFO - [2021-03-12 00:12:52,148] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:12:52,218] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:12:52,227] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:12:52,249] {logging_mixin.py:104} INFO - [2021-03-12 00:12:52,249] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:12:52,267] {logging_mixin.py:104} INFO - [2021-03-12 00:12:52,267] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:12:52,287] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.145 seconds
+[2021-03-12 00:13:22,372] {scheduler_job.py:182} INFO - Started process (PID=26) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:13:22,373] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:13:22,375] {logging_mixin.py:104} INFO - [2021-03-12 00:13:22,375] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:13:22,436] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:13:22,443] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:13:22,465] {logging_mixin.py:104} INFO - [2021-03-12 00:13:22,465] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:13:22,481] {logging_mixin.py:104} INFO - [2021-03-12 00:13:22,481] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:13:22,488] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.120 seconds
+[2021-03-12 00:13:52,558] {scheduler_job.py:182} INFO - Started process (PID=27) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:13:52,560] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:13:52,562] {logging_mixin.py:104} INFO - [2021-03-12 00:13:52,561] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:13:52,625] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:13:52,632] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:13:52,657] {logging_mixin.py:104} INFO - [2021-03-12 00:13:52,657] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:13:52,676] {logging_mixin.py:104} INFO - [2021-03-12 00:13:52,676] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:13:52,683] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.129 seconds
+[2021-03-12 00:14:22,716] {scheduler_job.py:182} INFO - Started process (PID=28) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:14:22,721] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:14:22,723] {logging_mixin.py:104} INFO - [2021-03-12 00:14:22,723] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:14:22,797] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:14:22,807] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:14:22,829] {logging_mixin.py:104} INFO - [2021-03-12 00:14:22,829] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:14:22,844] {logging_mixin.py:104} INFO - [2021-03-12 00:14:22,844] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:14:22,857] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.147 seconds
+[2021-03-12 00:14:52,935] {scheduler_job.py:182} INFO - Started process (PID=29) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:14:52,937] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:14:52,938] {logging_mixin.py:104} INFO - [2021-03-12 00:14:52,938] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:14:52,995] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:14:53,002] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:14:53,022] {logging_mixin.py:104} INFO - [2021-03-12 00:14:53,022] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:14:53,036] {logging_mixin.py:104} INFO - [2021-03-12 00:14:53,036] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:14:53,042] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.113 seconds
+[2021-03-12 00:15:23,120] {scheduler_job.py:182} INFO - Started process (PID=30) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:15:23,122] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:15:23,123] {logging_mixin.py:104} INFO - [2021-03-12 00:15:23,123] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:15:23,183] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:15:23,189] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:15:23,209] {logging_mixin.py:104} INFO - [2021-03-12 00:15:23,209] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:15:23,224] {logging_mixin.py:104} INFO - [2021-03-12 00:15:23,224] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:15:23,231] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.116 seconds
+[2021-03-12 00:15:53,316] {scheduler_job.py:182} INFO - Started process (PID=31) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:15:53,317] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:15:53,319] {logging_mixin.py:104} INFO - [2021-03-12 00:15:53,319] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:15:53,377] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:15:53,383] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:15:53,404] {logging_mixin.py:104} INFO - [2021-03-12 00:15:53,403] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:15:53,419] {logging_mixin.py:104} INFO - [2021-03-12 00:15:53,419] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:15:53,427] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.115 seconds
+[2021-03-12 00:16:23,504] {scheduler_job.py:182} INFO - Started process (PID=32) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:16:23,506] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:16:23,508] {logging_mixin.py:104} INFO - [2021-03-12 00:16:23,507] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:16:23,569] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:16:23,577] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:16:23,600] {logging_mixin.py:104} INFO - [2021-03-12 00:16:23,600] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:16:23,615] {logging_mixin.py:104} INFO - [2021-03-12 00:16:23,615] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:16:23,624] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.123 seconds
+[2021-03-12 00:16:53,669] {scheduler_job.py:182} INFO - Started process (PID=33) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:16:53,671] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:16:53,672] {logging_mixin.py:104} INFO - [2021-03-12 00:16:53,672] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:16:53,730] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:16:53,737] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:16:53,758] {logging_mixin.py:104} INFO - [2021-03-12 00:16:53,758] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:16:53,772] {logging_mixin.py:104} INFO - [2021-03-12 00:16:53,772] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:16:53,779] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.114 seconds
+[2021-03-12 00:17:23,820] {scheduler_job.py:182} INFO - Started process (PID=34) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:17:23,823] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:17:23,826] {logging_mixin.py:104} INFO - [2021-03-12 00:17:23,826] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:17:23,889] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:17:23,896] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:17:23,916] {logging_mixin.py:104} INFO - [2021-03-12 00:17:23,916] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:17:23,940] {logging_mixin.py:104} INFO - [2021-03-12 00:17:23,940] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:17:23,952] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.135 seconds
+[2021-03-12 00:17:54,025] {scheduler_job.py:182} INFO - Started process (PID=35) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:17:54,027] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:17:54,029] {logging_mixin.py:104} INFO - [2021-03-12 00:17:54,028] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:17:54,086] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:17:54,093] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:17:54,113] {logging_mixin.py:104} INFO - [2021-03-12 00:17:54,113] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:17:54,127] {logging_mixin.py:104} INFO - [2021-03-12 00:17:54,127] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:17:54,134] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.113 seconds
+[2021-03-12 00:18:24,202] {scheduler_job.py:182} INFO - Started process (PID=36) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:18:24,204] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:18:24,205] {logging_mixin.py:104} INFO - [2021-03-12 00:18:24,205] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:18:24,273] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:18:24,281] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:18:24,304] {logging_mixin.py:104} INFO - [2021-03-12 00:18:24,304] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:18:24,320] {logging_mixin.py:104} INFO - [2021-03-12 00:18:24,320] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:18:24,329] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.130 seconds
+[2021-03-12 00:18:54,415] {scheduler_job.py:182} INFO - Started process (PID=37) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:18:54,418] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:18:54,419] {logging_mixin.py:104} INFO - [2021-03-12 00:18:54,419] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:18:54,481] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:18:54,491] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:18:54,511] {logging_mixin.py:104} INFO - [2021-03-12 00:18:54,511] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:18:54,525] {logging_mixin.py:104} INFO - [2021-03-12 00:18:54,525] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:18:54,534] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.124 seconds
+[2021-03-12 00:20:43,352] {scheduler_job.py:182} INFO - Started process (PID=21) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:20:43,358] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:20:43,361] {logging_mixin.py:104} INFO - [2021-03-12 00:20:43,361] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:20:43,692] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:20:43,722] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:20:43,795] {logging_mixin.py:104} INFO - [2021-03-12 00:20:43,795] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:20:43,900] {logging_mixin.py:104} INFO - [2021-03-12 00:20:43,900] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:20:43,959] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.640 seconds
+[2021-03-12 00:21:14,092] {scheduler_job.py:182} INFO - Started process (PID=33) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:21:14,095] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:21:14,096] {logging_mixin.py:104} INFO - [2021-03-12 00:21:14,096] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:21:14,154] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:21:14,160] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:21:14,181] {logging_mixin.py:104} INFO - [2021-03-12 00:21:14,181] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:21:14,195] {logging_mixin.py:104} INFO - [2021-03-12 00:21:14,195] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:21:14,202] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.115 seconds
+[2021-03-12 00:21:44,287] {scheduler_job.py:182} INFO - Started process (PID=34) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:21:44,290] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:21:44,291] {logging_mixin.py:104} INFO - [2021-03-12 00:21:44,291] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:21:44,358] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:21:44,366] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:21:44,398] {logging_mixin.py:104} INFO - [2021-03-12 00:21:44,398] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:21:44,414] {logging_mixin.py:104} INFO - [2021-03-12 00:21:44,414] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:21:44,429] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.146 seconds
+[2021-03-12 00:22:14,501] {scheduler_job.py:182} INFO - Started process (PID=35) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:22:14,504] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:22:14,506] {logging_mixin.py:104} INFO - [2021-03-12 00:22:14,506] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:22:14,580] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:22:14,588] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:22:14,611] {logging_mixin.py:104} INFO - [2021-03-12 00:22:14,611] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:22:14,625] {logging_mixin.py:104} INFO - [2021-03-12 00:22:14,625] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:22:14,632] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.136 seconds
+[2021-03-12 00:22:44,724] {scheduler_job.py:182} INFO - Started process (PID=36) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:22:44,726] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:22:44,728] {logging_mixin.py:104} INFO - [2021-03-12 00:22:44,728] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:22:44,788] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:22:44,797] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:22:44,817] {logging_mixin.py:104} INFO - [2021-03-12 00:22:44,817] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:22:44,833] {logging_mixin.py:104} INFO - [2021-03-12 00:22:44,833] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:22:44,841] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.123 seconds
+[2021-03-12 00:23:14,923] {scheduler_job.py:182} INFO - Started process (PID=37) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:23:14,926] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:23:14,928] {logging_mixin.py:104} INFO - [2021-03-12 00:23:14,928] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:23:14,987] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:23:14,993] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:23:15,013] {logging_mixin.py:104} INFO - [2021-03-12 00:23:15,013] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:23:15,027] {logging_mixin.py:104} INFO - [2021-03-12 00:23:15,027] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:23:15,035] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.117 seconds
+[2021-03-12 00:23:45,103] {scheduler_job.py:182} INFO - Started process (PID=38) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:23:45,107] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:23:45,109] {logging_mixin.py:104} INFO - [2021-03-12 00:23:45,109] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:23:45,209] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:23:45,222] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:23:45,244] {logging_mixin.py:104} INFO - [2021-03-12 00:23:45,244] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:23:45,261] {logging_mixin.py:104} INFO - [2021-03-12 00:23:45,261] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:23:45,271] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.174 seconds
+[2021-03-12 00:24:15,389] {scheduler_job.py:182} INFO - Started process (PID=39) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:24:15,392] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:24:15,396] {logging_mixin.py:104} INFO - [2021-03-12 00:24:15,395] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:24:15,527] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:24:15,548] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:24:15,606] {logging_mixin.py:104} INFO - [2021-03-12 00:24:15,605] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:24:15,650] {logging_mixin.py:104} INFO - [2021-03-12 00:24:15,650] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:24:15,681] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.297 seconds
+[2021-03-12 00:24:45,772] {scheduler_job.py:182} INFO - Started process (PID=40) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:24:45,776] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:24:45,778] {logging_mixin.py:104} INFO - [2021-03-12 00:24:45,777] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:24:45,875] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:24:45,885] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:24:45,912] {logging_mixin.py:104} INFO - [2021-03-12 00:24:45,912] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:24:45,930] {logging_mixin.py:104} INFO - [2021-03-12 00:24:45,929] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:24:45,939] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.170 seconds
+[2021-03-12 00:26:12,386] {scheduler_job.py:182} INFO - Started process (PID=22) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:26:12,389] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:26:12,394] {logging_mixin.py:104} INFO - [2021-03-12 00:26:12,393] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:26:12,893] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:26:12,915] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:26:12,975] {logging_mixin.py:104} INFO - [2021-03-12 00:26:12,975] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:26:13,046] {logging_mixin.py:104} INFO - [2021-03-12 00:26:13,046] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:26:13,073] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.705 seconds
+[2021-03-12 00:26:43,210] {scheduler_job.py:182} INFO - Started process (PID=23) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:26:43,212] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:26:43,213] {logging_mixin.py:104} INFO - [2021-03-12 00:26:43,213] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:26:43,273] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:26:43,280] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:26:43,301] {logging_mixin.py:104} INFO - [2021-03-12 00:26:43,301] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:26:43,315] {logging_mixin.py:104} INFO - [2021-03-12 00:26:43,315] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:26:43,322] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.117 seconds
+[2021-03-12 00:27:13,397] {scheduler_job.py:182} INFO - Started process (PID=24) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:27:13,399] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:27:13,401] {logging_mixin.py:104} INFO - [2021-03-12 00:27:13,401] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:27:13,477] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:27:13,488] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:27:13,514] {logging_mixin.py:104} INFO - [2021-03-12 00:27:13,514] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:27:13,534] {logging_mixin.py:104} INFO - [2021-03-12 00:27:13,534] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:27:13,544] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.151 seconds
+[2021-03-12 00:27:43,615] {scheduler_job.py:182} INFO - Started process (PID=25) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:27:43,619] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:27:43,622] {logging_mixin.py:104} INFO - [2021-03-12 00:27:43,622] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:27:43,725] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:27:43,736] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:27:43,758] {logging_mixin.py:104} INFO - [2021-03-12 00:27:43,758] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:27:43,776] {logging_mixin.py:104} INFO - [2021-03-12 00:27:43,776] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:27:43,786] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.175 seconds
+[2021-03-12 00:29:07,399] {scheduler_job.py:182} INFO - Started process (PID=24) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:29:07,408] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:29:07,425] {logging_mixin.py:104} INFO - [2021-03-12 00:29:07,425] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:29:07,819] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:29:07,838] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:29:07,902] {logging_mixin.py:104} INFO - [2021-03-12 00:29:07,902] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:29:07,938] {logging_mixin.py:104} INFO - [2021-03-12 00:29:07,938] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:29:07,962] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.593 seconds
+[2021-03-12 00:29:38,059] {scheduler_job.py:182} INFO - Started process (PID=25) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:29:38,063] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:29:38,066] {logging_mixin.py:104} INFO - [2021-03-12 00:29:38,066] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:29:38,133] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:29:38,141] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:29:38,160] {logging_mixin.py:104} INFO - [2021-03-12 00:29:38,160] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:29:38,174] {logging_mixin.py:104} INFO - [2021-03-12 00:29:38,174] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:29:38,184] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.132 seconds
+[2021-03-12 00:30:08,258] {scheduler_job.py:182} INFO - Started process (PID=26) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:30:08,260] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:30:08,262] {logging_mixin.py:104} INFO - [2021-03-12 00:30:08,262] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:30:08,327] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:30:08,335] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:30:08,358] {logging_mixin.py:104} INFO - [2021-03-12 00:30:08,358] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:30:08,374] {logging_mixin.py:104} INFO - [2021-03-12 00:30:08,374] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:30:08,382] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.128 seconds
+[2021-03-12 00:30:39,404] {scheduler_job.py:182} INFO - Started process (PID=27) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:30:39,409] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:30:39,410] {logging_mixin.py:104} INFO - [2021-03-12 00:30:39,410] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:30:39,526] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:30:39,546] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:30:39,586] {logging_mixin.py:104} INFO - [2021-03-12 00:30:39,586] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:30:39,616] {logging_mixin.py:104} INFO - [2021-03-12 00:30:39,616] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:30:39,630] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.230 seconds
+[2021-03-12 00:31:09,730] {scheduler_job.py:182} INFO - Started process (PID=28) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:31:09,732] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:31:09,734] {logging_mixin.py:104} INFO - [2021-03-12 00:31:09,734] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:31:09,798] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:31:09,806] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:31:09,827] {logging_mixin.py:104} INFO - [2021-03-12 00:31:09,827] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:31:09,850] {logging_mixin.py:104} INFO - [2021-03-12 00:31:09,850] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:31:09,876] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.149 seconds
+[2021-03-12 00:31:39,981] {scheduler_job.py:182} INFO - Started process (PID=29) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:31:39,985] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:31:39,988] {logging_mixin.py:104} INFO - [2021-03-12 00:31:39,987] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:31:40,077] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:31:40,087] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:31:40,113] {logging_mixin.py:104} INFO - [2021-03-12 00:31:40,112] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:31:40,154] {logging_mixin.py:104} INFO - [2021-03-12 00:31:40,154] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:31:40,167] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.192 seconds
+[2021-03-12 00:32:10,264] {scheduler_job.py:182} INFO - Started process (PID=30) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:32:10,266] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:32:10,268] {logging_mixin.py:104} INFO - [2021-03-12 00:32:10,268] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:32:10,338] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:32:10,347] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:32:10,370] {logging_mixin.py:104} INFO - [2021-03-12 00:32:10,370] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:32:10,387] {logging_mixin.py:104} INFO - [2021-03-12 00:32:10,387] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:32:10,396] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.137 seconds
+[2021-03-12 00:32:40,486] {scheduler_job.py:182} INFO - Started process (PID=31) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:32:40,488] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:32:40,490] {logging_mixin.py:104} INFO - [2021-03-12 00:32:40,490] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:32:40,547] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:32:40,554] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:32:40,572] {logging_mixin.py:104} INFO - [2021-03-12 00:32:40,572] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:32:40,586] {logging_mixin.py:104} INFO - [2021-03-12 00:32:40,586] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:32:40,594] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.112 seconds
+[2021-03-12 00:33:10,665] {scheduler_job.py:182} INFO - Started process (PID=32) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:33:10,667] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:33:10,669] {logging_mixin.py:104} INFO - [2021-03-12 00:33:10,668] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:33:10,732] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:33:10,740] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:33:10,763] {logging_mixin.py:104} INFO - [2021-03-12 00:33:10,762] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:33:10,778] {logging_mixin.py:104} INFO - [2021-03-12 00:33:10,778] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:33:10,786] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.125 seconds
+[2021-03-12 00:33:40,851] {scheduler_job.py:182} INFO - Started process (PID=33) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:33:40,853] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:33:40,855] {logging_mixin.py:104} INFO - [2021-03-12 00:33:40,855] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:33:40,920] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:33:40,930] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:33:40,952] {logging_mixin.py:104} INFO - [2021-03-12 00:33:40,952] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:33:40,967] {logging_mixin.py:104} INFO - [2021-03-12 00:33:40,967] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:33:40,976] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.129 seconds
+[2021-03-12 00:34:11,059] {scheduler_job.py:182} INFO - Started process (PID=34) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:34:11,061] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:34:11,062] {logging_mixin.py:104} INFO - [2021-03-12 00:34:11,062] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:34:11,115] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:34:11,122] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:34:11,142] {logging_mixin.py:104} INFO - [2021-03-12 00:34:11,142] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:34:11,156] {logging_mixin.py:104} INFO - [2021-03-12 00:34:11,156] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:34:11,163] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.108 seconds
+[2021-03-12 00:34:41,238] {scheduler_job.py:182} INFO - Started process (PID=35) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:34:41,241] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:34:41,242] {logging_mixin.py:104} INFO - [2021-03-12 00:34:41,242] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:34:41,295] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:34:41,302] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:34:41,324] {logging_mixin.py:104} INFO - [2021-03-12 00:34:41,324] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:34:41,339] {logging_mixin.py:104} INFO - [2021-03-12 00:34:41,339] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:34:41,346] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.112 seconds
+[2021-03-12 00:35:11,418] {scheduler_job.py:182} INFO - Started process (PID=36) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:35:11,421] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:35:11,422] {logging_mixin.py:104} INFO - [2021-03-12 00:35:11,422] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:35:11,478] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:35:11,485] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:35:11,506] {logging_mixin.py:104} INFO - [2021-03-12 00:35:11,506] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:35:11,522] {logging_mixin.py:104} INFO - [2021-03-12 00:35:11,522] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:35:11,530] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.115 seconds
+[2021-03-12 00:35:41,600] {scheduler_job.py:182} INFO - Started process (PID=37) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:35:41,603] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:35:41,604] {logging_mixin.py:104} INFO - [2021-03-12 00:35:41,604] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:35:41,677] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:35:41,687] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:35:41,719] {logging_mixin.py:104} INFO - [2021-03-12 00:35:41,719] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:35:41,741] {logging_mixin.py:104} INFO - [2021-03-12 00:35:41,740] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:35:41,758] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.162 seconds
+[2021-03-12 00:37:04,525] {scheduler_job.py:182} INFO - Started process (PID=22) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:37:04,527] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:37:04,542] {logging_mixin.py:104} INFO - [2021-03-12 00:37:04,542] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:37:04,894] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:37:04,917] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:37:04,946] {logging_mixin.py:104} INFO - [2021-03-12 00:37:04,946] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:37:04,969] {logging_mixin.py:104} INFO - [2021-03-12 00:37:04,969] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:37:04,994] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.485 seconds
+[2021-03-12 00:37:35,068] {scheduler_job.py:182} INFO - Started process (PID=23) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:37:35,070] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:37:35,072] {logging_mixin.py:104} INFO - [2021-03-12 00:37:35,072] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:37:35,137] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:37:35,146] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:37:35,171] {logging_mixin.py:104} INFO - [2021-03-12 00:37:35,170] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:37:35,187] {logging_mixin.py:104} INFO - [2021-03-12 00:37:35,187] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:37:35,197] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.132 seconds
+[2021-03-12 00:38:05,274] {scheduler_job.py:182} INFO - Started process (PID=24) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:38:05,277] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:38:05,279] {logging_mixin.py:104} INFO - [2021-03-12 00:38:05,279] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:38:05,338] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:38:05,348] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:38:05,368] {logging_mixin.py:104} INFO - [2021-03-12 00:38:05,368] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:38:05,384] {logging_mixin.py:104} INFO - [2021-03-12 00:38:05,384] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:38:05,390] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.121 seconds
+[2021-03-12 00:38:39,859] {scheduler_job.py:182} INFO - Started process (PID=22) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:38:39,865] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:38:39,867] {logging_mixin.py:104} INFO - [2021-03-12 00:38:39,867] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:38:40,026] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:38:40,045] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:38:40,120] {logging_mixin.py:104} INFO - [2021-03-12 00:38:40,119] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:38:40,162] {logging_mixin.py:104} INFO - [2021-03-12 00:38:40,162] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:38:40,179] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.329 seconds
+[2021-03-12 00:39:10,276] {scheduler_job.py:182} INFO - Started process (PID=23) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:39:10,278] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:39:10,279] {logging_mixin.py:104} INFO - [2021-03-12 00:39:10,279] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:39:10,333] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:39:10,339] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:39:10,358] {logging_mixin.py:104} INFO - [2021-03-12 00:39:10,358] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:39:10,372] {logging_mixin.py:104} INFO - [2021-03-12 00:39:10,372] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:39:10,380] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.109 seconds
+[2021-03-12 00:39:40,462] {scheduler_job.py:182} INFO - Started process (PID=24) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:39:40,464] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:39:40,466] {logging_mixin.py:104} INFO - [2021-03-12 00:39:40,466] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:39:40,521] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:39:40,529] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:39:40,548] {logging_mixin.py:104} INFO - [2021-03-12 00:39:40,548] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:39:40,563] {logging_mixin.py:104} INFO - [2021-03-12 00:39:40,563] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:39:40,569] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.113 seconds
+[2021-03-12 00:40:10,653] {scheduler_job.py:182} INFO - Started process (PID=25) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:40:10,656] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:40:10,657] {logging_mixin.py:104} INFO - [2021-03-12 00:40:10,657] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:40:10,713] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:40:10,720] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:40:10,741] {logging_mixin.py:104} INFO - [2021-03-12 00:40:10,741] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:40:10,756] {logging_mixin.py:104} INFO - [2021-03-12 00:40:10,756] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:40:10,763] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.113 seconds
+[2021-03-12 00:40:40,836] {scheduler_job.py:182} INFO - Started process (PID=26) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:40:40,840] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:40:40,841] {logging_mixin.py:104} INFO - [2021-03-12 00:40:40,841] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:40:40,896] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:40:40,903] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:40:40,926] {logging_mixin.py:104} INFO - [2021-03-12 00:40:40,926] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:40:40,941] {logging_mixin.py:104} INFO - [2021-03-12 00:40:40,941] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:40:40,949] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.116 seconds
+[2021-03-12 00:41:03,691] {scheduler_job.py:182} INFO - Started process (PID=27) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:41:03,695] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:41:03,699] {logging_mixin.py:104} INFO - [2021-03-12 00:41:03,698] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:41:04,447] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:41:04,498] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:41:04,552] {logging_mixin.py:104} INFO - [2021-03-12 00:41:04,552] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:41:04,604] {logging_mixin.py:104} INFO - [2021-03-12 00:41:04,604] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:41:04,629] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.975 seconds
+[2021-03-12 00:41:34,962] {scheduler_job.py:182} INFO - Started process (PID=54) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:41:34,965] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:41:34,967] {logging_mixin.py:104} INFO - [2021-03-12 00:41:34,967] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:41:35,039] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:41:35,049] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:41:35,078] {logging_mixin.py:104} INFO - [2021-03-12 00:41:35,078] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:41:35,103] {logging_mixin.py:104} INFO - [2021-03-12 00:41:35,103] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:41:35,109] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.152 seconds
+[2021-03-12 00:42:05,611] {scheduler_job.py:182} INFO - Started process (PID=81) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:42:05,614] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:42:05,616] {logging_mixin.py:104} INFO - [2021-03-12 00:42:05,616] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:42:05,685] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:42:05,694] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:42:05,728] {logging_mixin.py:104} INFO - [2021-03-12 00:42:05,728] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:42:05,747] {logging_mixin.py:104} INFO - [2021-03-12 00:42:05,747] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:42:05,759] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.152 seconds
+[2021-03-12 00:42:36,357] {scheduler_job.py:182} INFO - Started process (PID=108) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:42:36,359] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:42:36,360] {logging_mixin.py:104} INFO - [2021-03-12 00:42:36,360] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:42:36,430] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:42:36,438] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:42:36,467] {logging_mixin.py:104} INFO - [2021-03-12 00:42:36,467] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:42:36,487] {logging_mixin.py:104} INFO - [2021-03-12 00:42:36,487] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:42:36,500] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.149 seconds
+[2021-03-12 00:43:07,246] {scheduler_job.py:182} INFO - Started process (PID=135) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:43:07,248] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:43:07,251] {logging_mixin.py:104} INFO - [2021-03-12 00:43:07,250] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:43:07,355] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:43:07,367] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:43:07,402] {logging_mixin.py:104} INFO - [2021-03-12 00:43:07,402] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:43:07,428] {logging_mixin.py:104} INFO - [2021-03-12 00:43:07,427] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:43:07,440] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.199 seconds
+[2021-03-12 00:43:26,020] {scheduler_job.py:182} INFO - Started process (PID=22) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:43:26,027] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:43:26,033] {logging_mixin.py:104} INFO - [2021-03-12 00:43:26,033] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:43:26,358] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:43:26,380] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:43:26,513] {logging_mixin.py:104} INFO - [2021-03-12 00:43:26,513] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:43:26,573] {logging_mixin.py:104} INFO - [2021-03-12 00:43:26,573] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:43:26,597] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.581 seconds
+[2021-03-12 00:43:56,721] {scheduler_job.py:182} INFO - Started process (PID=23) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:43:56,723] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:43:56,727] {logging_mixin.py:104} INFO - [2021-03-12 00:43:56,727] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:43:56,802] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:43:56,811] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:43:56,843] {logging_mixin.py:104} INFO - [2021-03-12 00:43:56,843] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:43:56,858] {logging_mixin.py:104} INFO - [2021-03-12 00:43:56,858] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:43:56,865] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.148 seconds
+[2021-03-12 00:44:26,932] {scheduler_job.py:182} INFO - Started process (PID=24) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:44:26,936] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:44:26,939] {logging_mixin.py:104} INFO - [2021-03-12 00:44:26,938] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:44:27,007] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:44:27,015] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:44:27,037] {logging_mixin.py:104} INFO - [2021-03-12 00:44:27,037] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:44:27,053] {logging_mixin.py:104} INFO - [2021-03-12 00:44:27,052] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:44:27,061] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.134 seconds
+[2021-03-12 00:44:57,151] {scheduler_job.py:182} INFO - Started process (PID=25) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:44:57,154] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:44:57,155] {logging_mixin.py:104} INFO - [2021-03-12 00:44:57,155] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:44:57,248] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:44:57,256] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:44:57,278] {logging_mixin.py:104} INFO - [2021-03-12 00:44:57,278] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:44:57,293] {logging_mixin.py:104} INFO - [2021-03-12 00:44:57,293] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:44:57,302] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.157 seconds
+[2021-03-12 00:45:27,381] {scheduler_job.py:182} INFO - Started process (PID=26) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:45:27,384] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:45:27,386] {logging_mixin.py:104} INFO - [2021-03-12 00:45:27,386] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:45:27,477] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:45:27,485] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:45:27,518] {logging_mixin.py:104} INFO - [2021-03-12 00:45:27,518] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:45:27,536] {logging_mixin.py:104} INFO - [2021-03-12 00:45:27,536] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:45:27,545] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.169 seconds
+[2021-03-12 00:45:57,631] {scheduler_job.py:182} INFO - Started process (PID=27) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:45:57,635] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:45:57,637] {logging_mixin.py:104} INFO - [2021-03-12 00:45:57,637] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:45:57,712] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:45:57,719] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:45:57,744] {logging_mixin.py:104} INFO - [2021-03-12 00:45:57,744] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:45:57,761] {logging_mixin.py:104} INFO - [2021-03-12 00:45:57,761] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:45:57,777] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.152 seconds
+[2021-03-12 00:47:02,450] {scheduler_job.py:182} INFO - Started process (PID=22) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:47:02,459] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:47:02,461] {logging_mixin.py:104} INFO - [2021-03-12 00:47:02,461] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:47:02,871] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:47:02,899] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:47:02,934] {logging_mixin.py:104} INFO - [2021-03-12 00:47:02,934] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:47:02,960] {logging_mixin.py:104} INFO - [2021-03-12 00:47:02,960] {dag.py:1837} INFO - Creating ORM DAG for xcom-example
+[2021-03-12 00:47:02,973] {logging_mixin.py:104} INFO - [2021-03-12 00:47:02,973] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:47:02,999] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.561 seconds
+[2021-03-12 00:47:33,089] {scheduler_job.py:182} INFO - Started process (PID=23) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:47:33,091] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:47:33,092] {logging_mixin.py:104} INFO - [2021-03-12 00:47:33,092] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:47:33,160] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:47:33,167] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:47:33,188] {logging_mixin.py:104} INFO - [2021-03-12 00:47:33,188] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:47:33,202] {logging_mixin.py:104} INFO - [2021-03-12 00:47:33,202] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:47:33,209] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.124 seconds
+[2021-03-12 00:49:11,918] {scheduler_job.py:182} INFO - Started process (PID=22) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:49:11,932] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:49:11,936] {logging_mixin.py:104} INFO - [2021-03-12 00:49:11,936] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:49:12,501] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:49:12,542] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:49:12,593] {logging_mixin.py:104} INFO - [2021-03-12 00:49:12,593] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:49:12,622] {logging_mixin.py:104} INFO - [2021-03-12 00:49:12,622] {dag.py:1837} INFO - Creating ORM DAG for xcom-example
+[2021-03-12 00:49:12,633] {logging_mixin.py:104} INFO - [2021-03-12 00:49:12,632] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:49:12,660] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.747 seconds
+[2021-03-12 00:49:42,749] {scheduler_job.py:182} INFO - Started process (PID=23) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:49:42,751] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 00:49:42,753] {logging_mixin.py:104} INFO - [2021-03-12 00:49:42,753] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:49:42,855] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-12 00:49:42,866] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 00:49:42,900] {logging_mixin.py:104} INFO - [2021-03-12 00:49:42,899] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 00:49:42,934] {logging_mixin.py:104} INFO - [2021-03-12 00:49:42,933] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 00:49:42,947] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.202 seconds

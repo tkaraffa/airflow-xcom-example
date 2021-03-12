@@ -1,0 +1,27 @@
+[2021-03-11 20:18:39,310] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: example_xcom_args_with_operators.c 2021-03-11T20:18:38.021147+00:00 [queued]>
+[2021-03-11 20:18:39,368] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: example_xcom_args_with_operators.c 2021-03-11T20:18:38.021147+00:00 [queued]>
+[2021-03-11 20:18:39,381] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-11 20:18:39,395] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-03-11 20:18:39,397] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-11 20:18:39,430] {taskinstance.py:1063} INFO - Executing <Task(BashOperator): c> on 2021-03-11T20:18:38.021147+00:00
+[2021-03-11 20:18:39,451] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'example_xcom_args_with_operators', 'c', '2021-03-11T20:18:38.021147+00:00', '--job-id', '15', '--pool', 'default_pool', '--raw', '--subdir', '/home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_xcomargs.py', '--cfg-path', '/tmp/tmpssyu14xv', '--error-file', '/tmp/tmp1pzxcec1']
+[2021-03-11 20:18:39,444] {standard_task_runner.py:52} INFO - Started process 49 to run task
+[2021-03-11 20:18:39,458] {standard_task_runner.py:77} INFO - Job 15: Subtask c
+[2021-03-11 20:18:39,549] {logging_mixin.py:104} INFO - Running <TaskInstance: example_xcom_args_with_operators.c 2021-03-11T20:18:38.021147+00:00 [running]> on host c5b43799858a
+[2021-03-11 20:18:39,623] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=example_xcom_args_with_operators
+AIRFLOW_CTX_TASK_ID=c
+AIRFLOW_CTX_EXECUTION_DATE=2021-03-11T20:18:38.021147+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-03-11T20:18:38.021147+00:00
+[2021-03-11 20:18:39,625] {bash.py:135} INFO - Tmp dir root location: 
+ /tmp
+[2021-03-11 20:18:39,627] {bash.py:158} INFO - Running command: echo c
+[2021-03-11 20:18:39,638] {bash.py:169} INFO - Output:
+[2021-03-11 20:18:39,641] {bash.py:173} INFO - c
+[2021-03-11 20:18:39,642] {bash.py:177} INFO - Command exited with return code 0
+[2021-03-11 20:18:39,684] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=example_xcom_args_with_operators, task_id=c, execution_date=20210311T201838, start_date=20210311T201839, end_date=20210311T201839
+[2021-03-11 20:18:39,732] {taskinstance.py:1220} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-03-11 20:18:39,764] {local_task_job.py:146} INFO - Task exited with return code 0

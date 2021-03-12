@@ -1,0 +1,23 @@
+[2021-03-12 00:12:43,776] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: xcom-example.load_into_db 2021-03-12T00:12:39.820469+00:00 [queued]>
+[2021-03-12 00:12:43,811] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: xcom-example.load_into_db 2021-03-12T00:12:39.820469+00:00 [queued]>
+[2021-03-12 00:12:43,814] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-12 00:12:43,817] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2021-03-12 00:12:43,818] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-12 00:12:43,841] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): load_into_db> on 2021-03-12T00:12:39.820469+00:00
+[2021-03-12 00:12:43,855] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'xcom-example', 'load_into_db', '2021-03-12T00:12:39.820469+00:00', '--job-id', '37', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/airflow-xcom-example.py', '--cfg-path', '/tmp/tmpcs1rytgx', '--error-file', '/tmp/tmpla4gd5g2']
+[2021-03-12 00:12:43,849] {standard_task_runner.py:52} INFO - Started process 44 to run task
+[2021-03-12 00:12:43,859] {standard_task_runner.py:77} INFO - Job 37: Subtask load_into_db
+[2021-03-12 00:12:43,930] {logging_mixin.py:104} INFO - Running <TaskInstance: xcom-example.load_into_db 2021-03-12T00:12:39.820469+00:00 [running]> on host 529cfb9a3d0d
+[2021-03-12 00:12:43,994] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=tom.karaffa@deep-labs.com
+AIRFLOW_CTX_DAG_OWNER=tom.karaffa
+AIRFLOW_CTX_DAG_ID=xcom-example
+AIRFLOW_CTX_TASK_ID=load_into_db
+AIRFLOW_CTX_EXECUTION_DATE=2021-03-12T00:12:39.820469+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-03-12T00:12:39.820469+00:00
+[2021-03-12 00:12:44,025] {python.py:118} INFO - Done. Returned value was: None
+[2021-03-12 00:12:44,046] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=xcom-example, task_id=load_into_db, execution_date=20210312T001239, start_date=20210312T001243, end_date=20210312T001244
+[2021-03-12 00:12:44,095] {taskinstance.py:1220} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-03-12 00:12:44,119] {local_task_job.py:146} INFO - Task exited with return code 0

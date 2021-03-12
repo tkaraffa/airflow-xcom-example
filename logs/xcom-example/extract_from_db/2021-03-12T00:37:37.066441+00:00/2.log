@@ -1,0 +1,76 @@
+[2021-03-12 00:42:39,866] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: xcom-example.extract_from_db 2021-03-12T00:37:37.066441+00:00 [queued]>
+[2021-03-12 00:42:39,883] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: xcom-example.extract_from_db 2021-03-12T00:37:37.066441+00:00 [queued]>
+[2021-03-12 00:42:39,884] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-12 00:42:39,886] {taskinstance.py:1043} INFO - Starting attempt 2 of 2
+[2021-03-12 00:42:39,887] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-12 00:42:39,898] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): extract_from_db> on 2021-03-12T00:37:37.066441+00:00
+[2021-03-12 00:42:39,903] {standard_task_runner.py:52} INFO - Started process 41 to run task
+[2021-03-12 00:42:39,908] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'xcom-example', 'extract_from_db', '2021-03-12T00:37:37.066441+00:00', '--job-id', '60', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/airflow-xcom-example.py', '--cfg-path', '/tmp/tmp9ahkn7_k', '--error-file', '/tmp/tmp45cylk3k']
+[2021-03-12 00:42:39,910] {standard_task_runner.py:77} INFO - Job 60: Subtask extract_from_db
+[2021-03-12 00:42:39,960] {logging_mixin.py:104} INFO - Running <TaskInstance: xcom-example.extract_from_db 2021-03-12T00:37:37.066441+00:00 [running]> on host 1b5b3919d480
+[2021-03-12 00:42:40,003] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=tom.karaffa@deep-labs.com
+AIRFLOW_CTX_DAG_OWNER=tom.karaffa
+AIRFLOW_CTX_DAG_ID=xcom-example
+AIRFLOW_CTX_TASK_ID=extract_from_db
+AIRFLOW_CTX_EXECUTION_DATE=2021-03-12T00:37:37.066441+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-03-12T00:37:37.066441+00:00
+[2021-03-12 00:42:40,018] {taskinstance.py:1455} ERROR - (psycopg2.errors.UndefinedTable) relation "airflow_xcom_example.example_table" does not exist
+LINE 2:     SELECT * FROM airflow_xcom_example.example_table;
+                          ^
+
+[SQL: 
+    SELECT * FROM airflow_xcom_example.example_table;
+    ]
+(Background on this error at: http://sqlalche.me/e/13/f405)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1277, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedTable: relation "airflow_xcom_example.example_table" does not exist
+LINE 2:     SELECT * FROM airflow_xcom_example.example_table;
+                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1112, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1285, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1315, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 117, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 128, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/airflow-xcom-example.py", line 44, in extract_from_db
+    results = conn.execute(db_statement).fetchall()
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1003, in execute
+    return self._execute_text(object_, multiparams, params)
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1178, in _execute_text
+    parameters,
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1317, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1511, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1277, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) relation "airflow_xcom_example.example_table" does not exist
+LINE 2:     SELECT * FROM airflow_xcom_example.example_table;
+                          ^
+
+[SQL: 
+    SELECT * FROM airflow_xcom_example.example_table;
+    ]
+(Background on this error at: http://sqlalche.me/e/13/f405)
+[2021-03-12 00:42:40,023] {taskinstance.py:1503} INFO - Marking task as FAILED. dag_id=xcom-example, task_id=extract_from_db, execution_date=20210312T003737, start_date=20210312T004239, end_date=20210312T004240
+[2021-03-12 00:42:40,084] {local_task_job.py:146} INFO - Task exited with return code 1

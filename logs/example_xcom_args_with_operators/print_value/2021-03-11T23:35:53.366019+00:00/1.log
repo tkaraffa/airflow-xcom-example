@@ -1,0 +1,22 @@
+[2021-03-11 23:35:55,930] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: example_xcom_args_with_operators.print_value 2021-03-11T23:35:53.366019+00:00 [queued]>
+[2021-03-11 23:35:55,968] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: example_xcom_args_with_operators.print_value 2021-03-11T23:35:53.366019+00:00 [queued]>
+[2021-03-11 23:35:55,970] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-11 23:35:55,972] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-03-11 23:35:55,973] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-11 23:35:55,999] {taskinstance.py:1063} INFO - Executing <Task(_PythonDecoratedOperator): print_value> on 2021-03-11T23:35:53.366019+00:00
+[2021-03-11 23:35:56,013] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'example_xcom_args_with_operators', 'print_value', '2021-03-11T23:35:53.366019+00:00', '--job-id', '11', '--pool', 'default_pool', '--raw', '--subdir', '/home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_xcomargs.py', '--cfg-path', '/tmp/tmptow2l2g2', '--error-file', '/tmp/tmpdz1bxtyw']
+[2021-03-11 23:35:56,016] {standard_task_runner.py:77} INFO - Job 11: Subtask print_value
+[2021-03-11 23:35:56,005] {standard_task_runner.py:52} INFO - Started process 61 to run task
+[2021-03-11 23:35:56,137] {logging_mixin.py:104} INFO - Running <TaskInstance: example_xcom_args_with_operators.print_value 2021-03-11T23:35:53.366019+00:00 [running]> on host 7d27dd48eb07
+[2021-03-11 23:35:56,197] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=example_xcom_args_with_operators
+AIRFLOW_CTX_TASK_ID=print_value
+AIRFLOW_CTX_EXECUTION_DATE=2021-03-11T23:35:53.366019+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-03-11T23:35:53.366019+00:00
+[2021-03-11 23:35:56,200] {example_xcomargs.py:39} INFO - The knights of Ni say: first! (at 2021-03-11T23:35:53.366019+00:00)
+[2021-03-11 23:35:56,224] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=example_xcom_args_with_operators, task_id=print_value, execution_date=20210311T233553, start_date=20210311T233555, end_date=20210311T233556
+[2021-03-11 23:35:56,276] {taskinstance.py:1220} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-03-11 23:35:56,320] {local_task_job.py:146} INFO - Task exited with return code 0

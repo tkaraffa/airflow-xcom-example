@@ -26,13 +26,9 @@ Example demonstrating how to pass values from one Airflow task to another.
 from datetime import timedelta
 from sqlalchemy import *
 import psycopg2
-import socket
-import airflow
 from airflow import DAG
 from airflow.operators.bash_operator import BashOperator
 from airflow.operators.python_operator import PythonOperator
-from airflow.models import Variable
-from airflow.models import TaskInstance
 from airflow.utils.dates import days_ago
 
 
@@ -46,7 +42,8 @@ def extract_from_db(**kwargs):
     SELECT * FROM airflow_xcom_example.example_table;
     """
     results = conn.execute(db_statement).fetchall()
-    ti.xcom_push(key='results', value=results)
+    json_results = [list(row) for row in results]
+    ti.xcom_push(key='results', value=json_results)
 
 # get values from one table, double, and prepare for insertion into another table
 def double_values(**kwargs):
@@ -71,7 +68,7 @@ def load_into_db(**kwargs):
         db_statement = f"""
         INSERT INTO airflow_xcom_example.example_table_doubled(
             doubled_id, column1_doubled, column2_doubled)
-        VALUES {row};
+        VALUES {tuple(row)};
         """
         conn.execute(db_statement)
 
