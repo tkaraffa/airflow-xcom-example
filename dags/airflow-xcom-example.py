@@ -27,15 +27,17 @@ from datetime import timedelta
 from sqlalchemy import *
 import psycopg2
 from airflow import DAG
-from airflow.operators.bash_operator import BashOperator
-from airflow.operators.python_operator import PythonOperator
+from airflow.operators.bash import BashOperator
+from airflow.operators.python import PythonOperator
 from airflow.utils.dates import days_ago
+from airflow.decorators import dag, task
 
 
-# use passed IP address to query database
+
+# query database
 def extract_from_db(**kwargs):
     ti = kwargs['ti']
-    conn_statement = f"postgresql://airflow:airflow@postgres:5432/airflow"
+    conn_statement = "postgresql://airflow:airflow@postgres:5432/airflow"
     engine = create_engine(conn_statement)
     conn = engine.connect()
     db_statement = """
@@ -57,11 +59,11 @@ def double_values(**kwargs):
         doubled_results.append(tuple(value[:1]) + tuple(doubled_row))
     ti.xcom_push(key='doubled_results', value=doubled_results)
 
-# use the IP address to connect to the database and insert new data
+# insert new data
 def load_into_db(**kwargs):
     ti = kwargs['ti']
     doubled_results = ti.xcom_pull(key='doubled_results', task_ids='double_values')
-    conn_statement = f"postgresql://airflow:airflow@postgres:5432/airflow"
+    conn_statement = "postgresql://airflow:airflow@postgres:5432/airflow"
     engine = create_engine(conn_statement)
     conn = engine.connect()
     for row in doubled_results:
@@ -92,19 +94,16 @@ with DAG(
     extract_from_db_task = PythonOperator(
         task_id='extract_from_db',
         python_callable=extract_from_db,
-        provide_context=True,
     )
 
     double_values_task = PythonOperator(
         task_id='double_values',
         python_callable=double_values,
-        provide_context=True,
     )
 
     load_into_db_task = PythonOperator(
         task_id='load_into_db',
         python_callable=load_into_db,
-        provide_context=True,
     )
 
     dag.doc_md = __doc__
