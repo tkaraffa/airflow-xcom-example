@@ -805,3 +805,157 @@
 [2021-03-12 16:50:06,159] {logging_mixin.py:104} INFO - [2021-03-12 16:50:06,159] {dag.py:1818} INFO - Sync 1 DAGs
 [2021-03-12 16:50:06,186] {logging_mixin.py:104} INFO - [2021-03-12 16:50:06,186] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
 [2021-03-12 16:50:06,199] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.113 seconds
+[2021-03-12 16:50:36,279] {scheduler_job.py:182} INFO - Started process (PID=36) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:50:36,281] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 16:50:36,282] {logging_mixin.py:104} INFO - [2021-03-12 16:50:36,282] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:50:36,302] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:50:36,320] {logging_mixin.py:104} INFO - [2021-03-12 16:50:36,320] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 16:50:36,334] {logging_mixin.py:104} INFO - [2021-03-12 16:50:36,334] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 16:50:36,341] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.066 seconds
+[2021-03-12 16:51:06,377] {scheduler_job.py:182} INFO - Started process (PID=37) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:51:06,380] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 16:51:06,382] {logging_mixin.py:104} INFO - [2021-03-12 16:51:06,381] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:51:06,402] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:51:06,423] {logging_mixin.py:104} INFO - [2021-03-12 16:51:06,423] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 16:51:06,439] {logging_mixin.py:104} INFO - [2021-03-12 16:51:06,439] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 16:51:06,447] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.074 seconds
+[2021-03-12 16:51:36,494] {scheduler_job.py:182} INFO - Started process (PID=38) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:51:36,496] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 16:51:36,497] {logging_mixin.py:104} INFO - [2021-03-12 16:51:36,497] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:51:36,522] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:51:36,546] {logging_mixin.py:104} INFO - [2021-03-12 16:51:36,546] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 16:51:36,568] {logging_mixin.py:104} INFO - [2021-03-12 16:51:36,568] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 16:51:36,578] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.088 seconds
+[2021-03-12 16:52:06,618] {scheduler_job.py:182} INFO - Started process (PID=39) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:52:06,621] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 16:52:06,623] {logging_mixin.py:104} INFO - [2021-03-12 16:52:06,623] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:52:06,645] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:52:06,671] {logging_mixin.py:104} INFO - [2021-03-12 16:52:06,670] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 16:52:06,687] {logging_mixin.py:104} INFO - [2021-03-12 16:52:06,687] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 16:52:06,700] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.087 seconds
+[2021-03-12 16:52:36,763] {scheduler_job.py:182} INFO - Started process (PID=40) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:52:36,765] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 16:52:36,767] {logging_mixin.py:104} INFO - [2021-03-12 16:52:36,767] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:52:36,808] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:52:36,828] {logging_mixin.py:104} INFO - [2021-03-12 16:52:36,828] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 16:52:36,850] {logging_mixin.py:104} INFO - [2021-03-12 16:52:36,850] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 16:52:36,864] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.106 seconds
+[2021-03-12 16:53:06,930] {scheduler_job.py:182} INFO - Started process (PID=41) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:53:06,932] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 16:53:06,933] {logging_mixin.py:104} INFO - [2021-03-12 16:53:06,933] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:53:06,953] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:53:06,975] {logging_mixin.py:104} INFO - [2021-03-12 16:53:06,975] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 16:53:06,993] {logging_mixin.py:104} INFO - [2021-03-12 16:53:06,993] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 16:53:07,006] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.080 seconds
+[2021-03-12 16:53:37,091] {scheduler_job.py:182} INFO - Started process (PID=42) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:53:37,093] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 16:53:37,095] {logging_mixin.py:104} INFO - [2021-03-12 16:53:37,095] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:53:37,147] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:53:37,211] {logging_mixin.py:104} INFO - [2021-03-12 16:53:37,211] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 16:53:37,246] {logging_mixin.py:104} INFO - [2021-03-12 16:53:37,246] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 16:53:37,261] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.177 seconds
+[2021-03-12 16:54:07,343] {scheduler_job.py:182} INFO - Started process (PID=43) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:54:07,345] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 16:54:07,347] {logging_mixin.py:104} INFO - [2021-03-12 16:54:07,347] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:54:07,366] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['xcom-example']) retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:54:07,387] {logging_mixin.py:104} INFO - [2021-03-12 16:54:07,387] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-12 16:54:07,405] {logging_mixin.py:104} INFO - [2021-03-12 16:54:07,404] {dag.py:2273} INFO - Setting next_dagrun for xcom-example to 2021-03-12 00:00:00+00:00
+[2021-03-12 16:54:07,413] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.073 seconds
+[2021-03-12 16:54:37,481] {scheduler_job.py:182} INFO - Started process (PID=44) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:54:37,484] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 16:54:37,486] {logging_mixin.py:104} INFO - [2021-03-12 16:54:37,486] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:54:37,514] {logging_mixin.py:104} INFO - [2021-03-12 16:54:37,512] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/airflow-xcom-example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow-xcom-example.py", line 33, in <module>
+    from airflow.task.context import get_current_context
+ModuleNotFoundError: No module named 'airflow.task.context'
+[2021-03-12 16:54:37,517] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:54:37,542] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.065 seconds
+[2021-03-12 16:55:07,583] {scheduler_job.py:182} INFO - Started process (PID=45) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:55:07,585] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 16:55:07,586] {logging_mixin.py:104} INFO - [2021-03-12 16:55:07,586] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:55:07,605] {logging_mixin.py:104} INFO - [2021-03-12 16:55:07,603] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/airflow-xcom-example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow-xcom-example.py", line 33, in <module>
+    from airflow.task.context import get_current_context
+ModuleNotFoundError: No module named 'airflow.task.context'
+[2021-03-12 16:55:07,608] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:55:07,634] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.054 seconds
+[2021-03-12 16:55:37,754] {scheduler_job.py:182} INFO - Started process (PID=46) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:55:37,756] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 16:55:37,757] {logging_mixin.py:104} INFO - [2021-03-12 16:55:37,757] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:55:37,770] {logging_mixin.py:104} INFO - [2021-03-12 16:55:37,769] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/airflow-xcom-example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow-xcom-example.py", line 33, in <module>
+    from airflow.task.context import get_current_context
+ModuleNotFoundError: No module named 'airflow.task.context'
+[2021-03-12 16:55:37,772] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:55:37,787] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.036 seconds
+[2021-03-12 16:56:07,859] {scheduler_job.py:182} INFO - Started process (PID=47) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:56:07,861] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 16:56:07,863] {logging_mixin.py:104} INFO - [2021-03-12 16:56:07,863] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:56:07,878] {logging_mixin.py:104} INFO - [2021-03-12 16:56:07,877] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/airflow-xcom-example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow-xcom-example.py", line 33, in <module>
+    from airflow.task.context import get_current_context
+ModuleNotFoundError: No module named 'airflow.task.context'
+[2021-03-12 16:56:07,880] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:56:07,898] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.043 seconds
+[2021-03-12 16:56:37,968] {scheduler_job.py:182} INFO - Started process (PID=48) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:56:37,970] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 16:56:37,971] {logging_mixin.py:104} INFO - [2021-03-12 16:56:37,971] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:56:37,985] {logging_mixin.py:104} INFO - [2021-03-12 16:56:37,983] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/airflow-xcom-example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow-xcom-example.py", line 33, in <module>
+    from airflow.task.context import get_current_context
+ModuleNotFoundError: No module named 'airflow.task.context'
+[2021-03-12 16:56:37,986] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:56:38,001] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.037 seconds
+[2021-03-12 16:57:04,719] {scheduler_job.py:182} INFO - Started process (PID=49) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:57:04,721] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 16:57:04,722] {logging_mixin.py:104} INFO - [2021-03-12 16:57:04,722] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:57:04,735] {logging_mixin.py:104} INFO - [2021-03-12 16:57:04,732] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/airflow-xcom-example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow-xcom-example.py", line 33, in <module>
+    from airflow.task.context import get_current_context
+ModuleNotFoundError: No module named 'airflow.task.context'
+[2021-03-12 16:57:04,737] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:57:04,752] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.036 seconds
+[2021-03-12 16:57:34,829] {scheduler_job.py:182} INFO - Started process (PID=50) to work on /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:57:34,832] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/airflow-xcom-example.py for tasks to queue
+[2021-03-12 16:57:34,833] {logging_mixin.py:104} INFO - [2021-03-12 16:57:34,833] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:57:34,847] {logging_mixin.py:104} INFO - [2021-03-12 16:57:34,845] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/airflow-xcom-example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow-xcom-example.py", line 33, in <module>
+    from airflow.task.context import get_current_context
+ModuleNotFoundError: No module named 'airflow.task.context'
+[2021-03-12 16:57:34,849] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow-xcom-example.py
+[2021-03-12 16:57:34,865] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/airflow-xcom-example.py took 0.040 seconds

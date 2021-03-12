@@ -30,13 +30,13 @@ from airflow import DAG
 from airflow.operators.bash import BashOperator
 from airflow.operators.python import PythonOperator
 from airflow.utils.dates import days_ago
-from airflow.decorators import dag, task
-
+from airflow.task.context import get_current_context
 
 
 # query database
-def extract_from_db(**kwargs):
-    ti = kwargs['ti']
+def extract_from_db():
+    context = get_current_context()
+    ti = context["ti"]
     conn_statement = "postgresql://airflow:airflow@postgres:5432/airflow"
     engine = create_engine(conn_statement)
     conn = engine.connect()
@@ -48,8 +48,9 @@ def extract_from_db(**kwargs):
     ti.xcom_push(key='results', value=json_results)
 
 # get values from one table, double, and prepare for insertion into another table
-def double_values(**kwargs):
-    ti = kwargs['ti']
+def double_values():
+    context = get_current_context()
+    ti = context["ti"]
     results = ti.xcom_pull(key='results', task_ids='extract_from_db')
     doubled_results = []
     for value in results:
@@ -60,8 +61,9 @@ def double_values(**kwargs):
     ti.xcom_push(key='doubled_results', value=doubled_results)
 
 # insert new data
-def load_into_db(**kwargs):
-    ti = kwargs['ti']
+def load_into_db():
+    context = get_current_context()
+    ti = context["ti"]
     doubled_results = ti.xcom_pull(key='doubled_results', task_ids='double_values')
     conn_statement = "postgresql://airflow:airflow@postgres:5432/airflow"
     engine = create_engine(conn_statement)
