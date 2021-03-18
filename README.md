@@ -2,7 +2,6 @@
 An example, with explanation, of passing values through an airflow DAG
 <br>
 ## XCOM
-<br>
 ### Purpose
 There is a frighteningly minimal amount of documentation that offers a specific example of how to pass a value from one task to another. I want to document a working example so that, in the future, when I have this problem again, I am able to solve it faster than I did this time.
 <br><br>
