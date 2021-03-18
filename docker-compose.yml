@@ -48,6 +48,7 @@ x-airflow-common:
     AIRFLOW__CELERY__BROKER_URL: redis://:@redis:6379/0
     AIRFLOW__CORE__FERNET_KEY: ''
   volumes:
+    - ./variables:/opt/airflow/variables
     - ./dags:/opt/airflow/dags
     - ./logs:/opt/airflow/logs
     - ./plugins:/opt/airflow/plugins
@@ -67,7 +68,7 @@ services:
       POSTGRES_DB: airflow
     volumes:
       - ./sql/init.sql:/docker-entrypoint-initdb.d/init.sql
-      # - postgres-db-volume:/var/lib/postgresql/data
+      - postgres-db-volume:/var/lib/postgresql/data
     healthcheck:
       test: ["CMD", "pg_isready", "-U", "airflow"]
       interval: 5s
@@ -114,8 +115,8 @@ services:
       <<: *airflow-common-env
       _AIRFLOW_DB_UPGRADE: 'true'
       _AIRFLOW_WWW_USER_CREATE: 'true'
-      _AIRFLOW_WWW_USER_USERNAME: ${_AIRFLOW_WWW_USER_USERNAME:-airflow}
-      _AIRFLOW_WWW_USER_PASSWORD: ${_AIRFLOW_WWW_USER_PASSWORD:-airflow}
+      _AIRFLOW_WWW_USER_USERNAME: ${_AIRFLOW_WWW_USER_USERNAME}
+      _AIRFLOW_WWW_USER_PASSWORD: ${_AIRFLOW_WWW_USER_PASSWORD}
 
   flower:
     <<: *airflow-common
@@ -128,6 +129,12 @@ services:
       timeout: 10s
       retries: 5
     restart: always
+
+  variables-import:
+    <<: *airflow-common
+    command: bash -c " airflow variables import variables/variables.json"
+    depends_on:
+      - airflow-webserver
 
 volumes:
   postgres-db-volume:

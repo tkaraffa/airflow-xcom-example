@@ -1,0 +1,4 @@
+variables.json
+variables/*
+.env
+d.sh
