@@ -30,7 +30,7 @@ from airflow import DAG
 from airflow.operators.bash import BashOperator
 from airflow.operators.python import PythonOperator
 from airflow.utils.dates import days_ago
-from airflow.task.context import get_current_context
+from airflow.operators.python import task, get_current_context
 
 
 # query database

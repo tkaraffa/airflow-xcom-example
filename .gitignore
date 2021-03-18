@@ -1,0 +1,7 @@
+variables.json
+variables/*
+.env
+d.sh
+.DS_Store
+logs/
+__pycache__
